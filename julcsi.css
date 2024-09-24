@@ -1,0 +1,58 @@
+@media screen and (max-width: 510px) {
+    .yapyap {
+        margin-right: 1rem;
+    }
+    div {
+        font-size: 0.7rem;
+        margin-left: 0rem;
+        text-align: center;
+    }
+}
+
+:root {
+    --dark:rgb(11, 7, 10);
+    --light: rgba(230, 241, 251, 0.992);
+    --text: rgb(224, 224, 224);
+    --text_dark: rgb(28, 27, 27);
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0rem;
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--light);
+    font-size: 1.15rem;
+  }
+
+.yapyap {
+    margin-right: 15rem;
+}
+
+h1 {
+    color: rgb(189, 174, 120);
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: black;
+    margin: 0rem;
+}
+a {
+    color: var(--text_dark);
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+h3 {
+    color: var(--text_dark);
+}
+
+div {
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
